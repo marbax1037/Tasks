@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switzerland Flag</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+        .container{
+            display: center;
+            width: 50%;
+        }
+    @media(max-width:800px){
+       .container{
+        width: 100%;
+        display: center;
+        justify-content: center;
+        align-items: center;
+       
+       }
+      
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #eee;
+    }
+    
+    .flag {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: #d52b1e; /* Red color */
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .horizontal,
+    .vertical {
+        position: absolute;
+        background-color:white;
+    }
+    
+    .horizontal {
+        top: 50%;
+        left: 25%;
+        width: 50%;
+        height: 25%;
+        transform: translateY(-50%);
+    }
+    
+    .vertical {
+        top: 25%;
+        left: 50%;
+        width: 25%;
+        height: 50%;
+        transform: translateX(-50%);
+    }
+  
+    </style>
+</head>
+<body>
+<div class="container">
+     <div class="flag">
+        <div class="horizontal"></div>
+        <div class="vertical"></div>
+       
+    </div>
+    <p>
+        <h1>Switzerland</h1>
+        Switzerland is a mountainous Central European country,<br> 
+        home to numerous lakes, villages and the high peaks of  the Alps. <br> <br>
+        Its cities contain medieval quarters, with landmarks like capital Bern’s Zytglogge clock tower and Lucerne’s wooden chapel bridge. 
+          The country is also known for its ski resorts and hiking trails.  <br> Banking and finance are key industries, and Swiss watches and chocolate are world renowned. 
+    </p>
+</div>  
+</body>
+</html>
